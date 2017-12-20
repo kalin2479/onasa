@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ritmopiuranoregular';
+    src: url('../fonts/piurano/ritmopiurano-regular_3-webfont.eot');
+    src: url('../fonts/piurano/ritmopiurano-regular_3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/piurano/ritmopiurano-regular_3-webfont.woff2') format('woff2'),
+         url('../fonts/piurano/ritmopiurano-regular_3-webfont.woff') format('woff'),
+         url('../fonts/piurano/ritmopiurano-regular_3-webfont.svg#ritmopiuranoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,143 @@
+.contentView
+	relative top 0 left 0
+	z-index 11
+	&:before
+		content ''
+		background url('../image/curva-content2.png') center center no-repeat 
+		background-size cover
+		height 250px
+		width 100%
+		absolute top -108px left 0
+		z-index 15
+		@media screen and (min-width:992px)
+			height 260px
+			top -115px
+			border 0px solid red
+		@media screen and (min-width: 1200px)
+			height 250px
+			top -108px
+.contentBox
+	relative top 0 left 0
+	z-index 11
+	&.product
+		background url('../image/bgproduct.jpg') center center no-repeat 
+		background-size cover
+		height 100%
+		width 100%
+		> div
+			relative top 0 left 0
+			overflow hidden
+			padding-top 110px
+			padding-bottom 90px
+		.boxImage
+			absolute top 0 left 0
+			z-index 5
+			&.espinaca
+				left -27%
+				display none
+				img
+					width auto
+				@media screen and (min-width:992px)
+					display block
+				@media screen and (min-width:1200px)
+					left -15%
+			&.vainita
+				left 80%
+				display none
+				@media screen and (min-width:992px)
+					display block
+			&.pepa2
+				left 80%
+				top 30%
+				@media screen and (min-width:768px)
+					left 89%
+				@media screen and (min-width:992px)
+					left 90%
+					top 40%
+			&.cebolla
+				left 40%
+				top 78%
+				display none
+				@media screen and (min-width:992px)
+					display block
+			&.romero
+				left -25%
+				top 30%
+				@media screen and (min-width:480px)
+					left -10%
+					top 30%
+				@media screen and (min-width:992px)
+					left -7%
+					top 40%
+				@media screen and (min-width:1200px)
+					left -5%
+					top 50%
+			&.pepa
+				left -40%
+				top 80%
+				@media screen and (min-width:480px)
+					left -25%
+					top 80%
+				@media screen and (min-width:768px)
+					left -15%
+				@media screen and (min-width:992px)
+					left -10%
+					top 70%
+				@media screen and (min-width:1200px)
+					left -10%
+					top 75%
+		
+		h2, h1
+			color blueText
+	&.about
+		background url('../image/paisaje.jpg') center center no-repeat 
+		background-size cover
+		height 100%
+		width 100%
+		padding-bottom 110px
+		padding-top 110px
+		&:before
+			content ''
+			background url('../image/curva-content.png') center center no-repeat 
+			background-size cover
+			height 90px
+			width 100%
+			absolute top -65px left 0
+			z-index 2
+		&:after
+			content ''
+			//background radial-gradient(ellipse at center, rgba(37,82,153,.85) 0%, rgba(28,73,149,.9) 44%, rgba(36,73,119,1) 100%)
+			background linear-gradient(to bottom, rgba(0,69,151,1) 15%, rgba(28,71,147,.75) 100%)
+			height 100%
+			width 100%
+			absolute left 0 top 0
+			z-index 1
+	.container
+		text-align center
+		relative top 0 left 0
+		z-index 9
+		.legalBox
+			width 70%
+			margin auto
+			@media screen and (min-width:1200px)
+				width 55%
+		.descriptionBox-line
+			display flex
+			flex-direction row
+			flex-wrap wrap
+			justify-content space-around
+			align-items flex-start
+			padding-top 80px
+			padding-bottom 80px
+			.optionBox
+				width 180px
+				margin-bottom 20px
+				@media screen and (min-width:768px)
+					margin-bottom 0
+				
+				h3, p
+					font-generator(f_breef,32px,normal,white, none)
+				p
+					font-size 16px
+				img
+					height 120px

@@ -1,0 +1,24 @@
+footer
+	background #e6e6e6
+	padding-top 80px
+	padding-bottom 40px
+	relative top 0 left 0
+	&:before
+		content ''
+		background url('../image/curva-footer.png') center center no-repeat 
+		background-size cover
+		height 60px
+		width 100%
+		absolute top -5px left 0
+		z-index 2
+		@media screen and (min-width:1200px)
+			height 120px
+	.container
+		display flex
+		flex-direction row
+		flex-wrap nowrap
+		justify-content space-between
+		align-items flex-end
+		p
+			font-generator(f_breef,12px,normal,#7c7c7c, none)
+			
